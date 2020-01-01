@@ -1,0 +1,10 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+
+.header {
+    background-color: slategray;
+    color: snow;
+    text-align: center;
+}
