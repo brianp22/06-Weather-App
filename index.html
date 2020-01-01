@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather Application</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
+
 <body>
     <div class="header">
         <div class="row">
@@ -17,13 +20,39 @@
             </div>
         </div>
     </div>
-    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3" id="sidebar">
+                <form>
+                    Search for a City:<br>
+                    <input type="text" id="searchInput">
+                    <button id="searchButton">Search</button>
+                </form>
+                <br>
+                <div id="buttonHolder"></div>
+            </div>
+            <div class="col-md-9" id="dailyDisplay">
+                <div class="city">city</div>
+                <div class="temperature">temp</div>
+                <div class="windspeed">wind</div>
+                <div class="uvindex">uvindex</div>
+
+                <div id="fiveDayForecast">
+                    <h1>###</h1>
+                    <h1>###</h1>
+                    <h1>###</h1>
+                    <h1>###</h1>
+                    <h1>###</h1>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
 
 
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
