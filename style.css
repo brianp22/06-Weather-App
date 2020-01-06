@@ -1,20 +1,32 @@
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16px;
-    background-color: white;
-  }
-
-.header {
-    background-color: slategray;
-    color: snow;
-    text-align: center;
-}
-
-#sidebar{
-    height: 100%;
+#searchDiv{
+    padding: 10px;
+    border: solid 1px grey;
     background-color: lightblue;
+    height: 100%;
 }
 
-#fiveDayForecast {
-    display:inline-block;
+#citySearchButton{
+    display: inline-block;
+}
+
+#currentConditions{
+    padding: 10px;
+    border: solid 1px grey;
+    background-color: lightblue;
+    height: 100%;
+    align-content: center;
+}
+
+#searchHistory{
+    padding: 10px;
+    height: 100%;
+    align-content: center;
+}
+
+#fiveDayForecast{
+    padding: 10px;
+    border: solid 1px grey;
+    background-color: lightblue;
+    height: 100%;
+    align-content: center;
 }
